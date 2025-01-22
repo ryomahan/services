@@ -1,0 +1,11 @@
+[Unit]
+Description=Frp
+After=syslog.target network.target
+
+[Service]
+ExecStart=/root/service/frp/bin/frp -c /root/service/frp/conf/conf.ini
+Type=simple
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

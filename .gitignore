@@ -1,0 +1,13 @@
+# env
+.env
+
+# mac
+.DS_Store
+
+# editor
+.vscode
+.idea
+
+# data
+mysql/data/
+redis/data/
